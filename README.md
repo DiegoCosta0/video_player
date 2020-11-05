@@ -30,7 +30,7 @@
 
 ### 1 - Player blog homepage.
 
-https://github.com/DiegoCosta0/video_player/blob/master/public/Captura%20de%20tela%20de%202020-11-05%2013-42-24.png
+![Products image](https://github.com/DiegoCosta0/video_player/blob/master/public/Captura%20de%20tela%20de%202020-11-05%2013-42-24.png)
 
 ### 2 - Log into the app or register
 
@@ -58,7 +58,7 @@ The main features of the application are:
 
 ## Links
 
-  - Link of deployed application: https://rock-blog.herokuapp.com
+  - Link of deployed application: https://video-player-diego.herokuapp.com
   - Repository: https://github.com/DiegoCosta0/video_player
     - In case of sensitive bugs like security vulnerabilities, please contact
       diegofernades9506@gmail.com directly instead of using issue tracker. We value your effort
