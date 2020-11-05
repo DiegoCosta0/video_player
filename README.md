@@ -1,6 +1,5 @@
-https://github.com/DiegoCosta0/rock_club/blob/main/public/readme_images/logo.png
-video-player	
-Here are the technologies used in this project.
+
+ Here are the technologies used in this project.
 
 * Ruby version  2.6.2
 * Rails version 6.0.0
