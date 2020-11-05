@@ -1,0 +1,24 @@
+<%= render 'page/nav' %>
+
+<div class="container margin-container">
+
+  <div class="card">
+    <div class="card-header">
+      <%= @video.name %> <br>
+      <% if @video.video_views.first.present? %>
+        <%= @video.video_views.first.views %>
+        <% else %>
+        0
+      <% end %>
+      Visualizações
+    </div>
+
+    <div class="embed-responsive" id="<%= @video.id %>">
+      <video-js controls preload class="vjs-theme-sea" id="player-id" data-setup='{"liveui": false,"fluid": true}'>
+        <source src="<%= @video.url %>" type="application/x-mpegurl">
+      </video-js>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,50 @@
+<%= render 'page/nav' %>
+
+<div class="container margin-container">
+  <div class="card">
+    <div class="card-header">
+      <%= button_to "Criar vídeo +", new_video_path, :method => :get, class: "btn btn-primary btn-xs float-right"%>
+      Vídeos
+    </div>
+    <div class="row col-md-12">
+      <table class="table table-striped custab">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Url</th>
+          <th>Visualizações</th>
+          <th class="text-center">Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+          <% if @videos.any? %>
+            <% @videos.each do |video| %>
+              <tr>
+                <td>
+                  <%= video.name %>
+                </td>
+                <td>
+                  <%= video.url.truncate(60) %>
+                </td>
+                <td>
+                  <%= video.video_views.first.present? ? video.video_views.first.views : 0 %>
+                </td>
+                <td class="text-center">
+                  <%= link_to 'Ver', video_path(video), class: 'btn btn-warning btn-xs' %>
+                  <%= link_to 'Editar', edit_video_path(video), class: 'btn btn-info btn-xs' %>
+                  <%= link_to "Excluir", video_path(video), :confirm => "Are you sure?", :method => :delete, class: 'btn btn-danger btn-xs' %>
+                </td>
+              </tr>
+            <% end %>
+          <% else %>
+            <tr>
+              <td colspan="5" align="center">
+                Nenhum vídeo cadastrado
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

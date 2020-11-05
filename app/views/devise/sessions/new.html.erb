@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row justify-content-center" style="margin-top: 30px;">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">Fazer login</div>
+        <div class="card-body">
+
+          <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+            <div class="form-group">
+              <label for="name" class="cols-sm-2 control-label">Email</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Email", class:"form-control" %>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="name" class="cols-sm-2 control-label">Senha</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <%= f.password_field :password, autocomplete: "new-password", placeholder: "Senha", class:"form-control" %>
+                </div>
+              </div>
+            </div>
+
+            <div class="actions">
+              <%= f.submit "Logar", class:"btn btn-primary" %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

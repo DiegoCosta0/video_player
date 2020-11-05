@@ -1,0 +1,15 @@
+<%= form_with(model: video, local: true) do |form| %>
+  <div class="form-group">
+    <label>Nome</label>
+    <%= form.text_field :name, autofocus: true, placeholder: "Nome", class:"form-control" %>
+  </div>
+  <div class="form-group">
+    <label>URL</label>
+    <%= form.text_field :url, autofocus: true, placeholder: "Url do vídeo", class:"form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.submit "Salvar", :class => "btn btn-primary float-right" %>
+  </div>
+
+<% end %>
