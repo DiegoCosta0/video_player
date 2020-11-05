@@ -29,10 +29,9 @@ Here are the technologies used in this project.
 >    $ rails s
 ## How to use
 
-### 1 - Player video home page.
+### 1 - Player blog homepage.
 
 https://github.com/DiegoCosta0/video_player/blob/master/public/Captura%20de%20tela%20de%202020-11-05%2013-42-24.png
-
 
 ### 2 - Log into the app or register
 
@@ -47,7 +46,6 @@ https://github.com/DiegoCosta0/video_player/blob/master/public/list_views.png
 ### 4 - Play videos and view count
 
 https://github.com/DiegoCosta0/video_player/blob/master/public/Captura%20de%20tela%20de%202020-11-05%2013-47-44.png
-
 
 
 ## Features
