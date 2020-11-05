@@ -1,4 +1,5 @@
 
+![Products image](https://github.com/DiegoCosta0/video_player/blob/master/public/046715a4-774e-4c54-9185-29ae283bcb39_200x200.png)
  Here are the technologies used in this project.
 
 * Ruby version  2.6.2
@@ -34,17 +35,17 @@
 
 ### 2 - Log into the app or register
 
-https://github.com/DiegoCosta0/video_player/blob/master/public/login.png
+![Products image](https://github.com/DiegoCosta0/video_player/blob/master/public/login.png)
 
-https://github.com/DiegoCosta0/video_player/blob/master/public/create_account.png
+![Products image](https://github.com/DiegoCosta0/video_player/blob/master/public/create_account.png)
 
 ### 3 - List videos, edit, create, delete
 
-https://github.com/DiegoCosta0/video_player/blob/master/public/list_views.png
+![Products image](https://github.com/DiegoCosta0/video_player/blob/master/public/list_views.png)
 
 ### 4 - Play videos and view count
 
-https://github.com/DiegoCosta0/video_player/blob/master/public/Captura%20de%20tela%20de%202020-11-05%2013-47-44.png
+![Products image](https://github.com/DiegoCosta0/video_player/blob/master/public/Captura%20de%20tela%20de%202020-11-05%2013-47-44.png)
 
 
 ## Features
